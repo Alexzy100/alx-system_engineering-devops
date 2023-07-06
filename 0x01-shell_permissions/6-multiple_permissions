@@ -1,0 +1,4 @@
+#!/bin/bash
+chmod u+x
+chmod ug+x
+chmod o+r
