@@ -1,1 +1,2 @@
-q
+#!/bin/bash
+echo -e 'Best School' > "\\*\\\\'\"Best School\"'\\\\*\\$\\?\\*\\*\\*\\*\\*:)"
