@@ -1,15 +1,16 @@
 #include <unistd.h>
 
 /**
- * main - Entry point of the program
+ * main - prints "and that piece of art is useful"- Dora Korpar, 2015-10-19",
+ * followed by a newline, to standard error.
  *
- * Description: Prints the message "and that piece of art is useful"
- *              - Dora Korpar, 2015-10-19 to the standard error.
- *
- * Return: Always 1 (Error exit status)
+ * Return: Always 1.
  */
+
 int main(void)
+
 {
 	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
+
